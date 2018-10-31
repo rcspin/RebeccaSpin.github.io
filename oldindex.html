@@ -11,79 +11,26 @@
 
 <style>
 header {
-  /*font*/
 font-family: 'Asap', sans-serif;
-font-family: 'Slabo 27px', serif;
-color: white;
-  /*background*/
-grid-row: 1;
-grid-column: 1 / 5;
-background-color: #665367;
-padding-top: 3rem;
-padding-left: 3rem;
-padding-bottom: 1rem;
-}
-  /*font specified for headers*/
+font-family: 'Slabo 27px', serif;}
 h1 {font-family: 'Asap', sans-serif;}
 h2 {font-family: 'Slabo 27px', serif;}
 
-/*center the header and header text*/
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%;}
-
-  /*font specified for body text*/
 body {
 font-family: 'Asap', sans-serif;
 font-family: 'Slabo 27px', serif;
 font-size: 100%;  /* 16px, sets the font-size baseline */}
 h1 { font-size: 2.1877em; /* 35px/16px*/}
 h2 { font-family: 'Asap', sans-serif; font-size: 1.75em; /* 28px/16px*/}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;}
 
-  /*aside background*/
-aside {
-  min-height: 50vh;
-  background-color: #CAC0C9;
-  grid-row: 2;
-  grid-column: 3/4;
-}
-aside h2{
-  text-align: center;
-}
-
-#sec1{
-  background-color: #DECDD5;
-  grid-row: 2;
-  grid-column: 2/3;
-}
-#sec1 h2{
-  text-align: center;
-}
-
-#sec2 {
-  background-color: #CAC0C9;
-  grid-row: 2;
-  grid-column: 1/2;
-}
-#sec2 h2{
-  text-align: center;
-}
-
-footer {
-  background-color: #665367;
-  grid-row: 3;
-  grid-column: 1 / 5;
-  text-align: center;
-  color: white;
-  padding: 2rem;
-}
-
-  /*grid container*/
-#container {
+.container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: .2fr 1.6fr .2fr;
     max-width: 80vw;
     margin: auto;
@@ -104,32 +51,25 @@ footer {
     </header>
 
 
-    <section id="sec1">
+    <section>
       <h2>EXERCISES</h2>
-      <ul>
+      <ol>
         <li><a href="storyremix-1.html">Exercise 1- History of Internet Art: Remixing</a></li>
-        <li>Exercise 2- HTML Semantic Markup Practice Exercise:
-          <ul>
-            <li><a href="Ex123Markup/ex1markup.html">Markup 1 </a></li>
-            <li><a href="Ex123Markup/ex2markup.html">Markup 2 </a></li>
-            <li><a href="Ex123Markup/ex3markup.html">Markup 3</a></li>
-          </ul>
+        <li>Exercise 2- HTML Semantic Markup Practice Exercise: <a href="Ex123Markup/ex1markup.html">Markup 1, </a><a href="Ex123Markup/ex2markup.html">Markup 2, </a><a href="Ex123Markup/ex3markup.html">Markup 3</a></li>
         <li><a href="llamabaseforgame.html">Exercise 3- CSS Colorize Selector Exercise: King Llama Game</a></li>
         <li>Exercise 4- Exploring Box Model Game:<a href="BoxModelEx/boxmodel-game.html">HTML file, </a><a href="BoxModelEx/styles.css">CSS file</a></li>
         <li><a href="RobotoReport.html">Exercise 5- Web Font Style Tile and Oral Report Exercise</a></li>
         <li><a href="#">Exercise 6- CSS Grid One Page Layout</a></li>
-      </ul>
+      </ol>
     </section>
 
-
-    <section id="sec2">
+    <section>
       <h2>PROJECTS</h2>
-      <ul>
+      <ol>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Portfolio</a></li>
-      </ul>
+      </ol>
     </section>
-
 
     <aside>
       <h2>USEFUL LINKS</h2>
@@ -138,14 +78,14 @@ footer {
         <li><h3>Tools</h3>
           <ul>
             <li><a href="http://wbwip.com/wbw/emailencoder.html">Email Encoder</a></li>
-            <li><a href="https://html-color-codes.info/colors-from-image/">CSS Color Picker from an image</a></li>
+            <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
           </ul>
         </li>
 
         <li><h3>Educational Resources</h3>
           <ul>
-            <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+            <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
             <li><a href="#">Link</a></li>
           </ul>
