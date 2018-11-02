@@ -17,7 +17,7 @@ in the middle of the browser no matter how wide you stretch the browser*/
   display: block;
   margin-left: 0%;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 header {
@@ -76,16 +76,25 @@ article {
   padding-right: 2rem;
 }
 
+#imagetextgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 80vw;
+    margin: auto;
+    }
+#imagetextgrid p {
+  grid-row: 1;
+  grid-column: 2 / 3;
+  padding: 10%;
+}
+
 footer {
   background: #6441A4 ;
   padding: 2rem;
   text-align: center;
   color: #FFFFFF;
 }
-
-/*Images for Icons*/
-/*file:///Users/clmuser/Desktop/icon1.png*/
-
 
 /*Typography*/
 
