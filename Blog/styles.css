@@ -7,6 +7,19 @@ in the middle of the browser no matter how wide you stretch the browser*/
   width: 90vw;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;}
+
+.left {
+  display: block;
+  margin-left: 0%;
+  margin-right: auto;
+  width: 50%;
+}
+
 header {
   background: #6441A4;
   padding: 2rem;
@@ -19,11 +32,17 @@ header {
 so at smaller size-mobile width--it wraps vertically in a row
 and at larger screen widths it spreads more horizontally.
 And justify-content centers flex blox content*/
+nav{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
 }
 /*Sets background color of nav list elements and their width and height*/
 nav ul li {
@@ -63,6 +82,10 @@ footer {
   text-align: center;
   color: #FFFFFF;
 }
+
+/*Images for Icons*/
+/*file:///Users/clmuser/Desktop/icon1.png*/
+
 
 /*Typography*/
 
