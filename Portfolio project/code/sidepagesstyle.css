@@ -3,8 +3,13 @@
 to 100% of viewport width and margin:auto centers the page
 in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
+  display: grid;
   margin: auto;
   width: 100vw;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  max-width: 80vw;
+  margin: auto;
 }
 
 .center {
@@ -19,26 +24,20 @@ in the middle of the browser no matter how wide you stretch the browser*/
   margin-right: auto;
   width: 100%;
 }
-
 header {
-  background: #FBDCA3;
-  padding-top: 1rem;
-  padding-bottom: .001rem;
-  text-align: center;
-  color: #C57B57;
-
-}
-/*Image*/
-
-
-/*Link Colors*/
-a:active {
-    color: #FBDCA3;
+  grid-row: 1;
+  grid-column: 1 / 3;
+  background-color: #C57B57;
+  color: #FBDCA3;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  text-align: left;
+  padding-left: 2rem;
 }
 
-
-/*Nav Bar*/
 nav {
+    grid-row: 1;
+    grid-column: 3 / 4;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,27 +47,14 @@ nav {
 
 img{
   width: 20%;
-  padding: inherit;
+  padding: 2rem;
   float: right;
-}
-
-li {
-  float: right;
-  text-align: center;
-  width: 25%;
-}
-
-li a {
-    display: block;
-    color: white;
-    vertical-align: middle;
-    text-align: center;
-    padding: 14px 10px;
-    text-decoration: none;
 }
 
 /*Footer*/
 footer {
+  grid-row: 5;
+  grid-column: 1 / 4;
   background: #C57B57 ;
   padding-top: .01rem;
   padding-bottom: 2rem;
@@ -81,6 +67,12 @@ footer a:link {
 }
 
 footer a:visited {
+    color: #FBDCA3;
+}
+
+
+/*Link Colors*/
+a:active {
     color: #FBDCA3;
 }
 
