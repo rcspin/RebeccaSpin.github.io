@@ -1,7 +1,3 @@
-
-/*Sets the width of the overall page container div
-to 100% of viewport width and margin:auto centers the page
-in the middle of the browser no matter how wide you stretch the browser*/
 .pagecontainer {
   margin: auto;
   width: 100vw;
