@@ -57,6 +57,53 @@ ul {
     overflow: hidden;
 }
 
+/*TEXT LINKS*/
+
+.contactlinks {
+  display: table;
+}
+
+.contactlinks li {
+  display: table-row;
+}
+
+.contactlinks .image, .contactlinks .label {
+  display: table-cell;
+  width: 30px;
+  vertical-align: middle;
+  padding-top: 2rem;
+  padding-left: 4rem;
+  font-family: 'Montserrat', sans-serif; font-size: 3em;
+}
+
+.contactlinks .label {
+  width: 2rem;
+}
+
+/*ICON BAR*/
+
+.icon-bar a {
+    display: flex; /* Make the links appear below each other instead of side-by-side */
+    flex-direction: column;
+    text-align: center; /* Center-align text */
+    padding-left: auto; /* Add some padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: #041F1E; /* Dark gray text color */
+    font-size: 7em; /* Increased font-size */
+    text-decoration: none;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    grid-row: 2;
+    grid-column: 1 / 2;
+
+}
+
+.icon-bar a:hover {
+    color: #FBDCA3; /* Add a hover color */
+}
+
+/**/
+
 .image1{
   width: 20%;
   padding: 2rem;
@@ -64,19 +111,6 @@ ul {
 }
 
 .image2{
-  width: 80%;
-  height: auto;
-  padding-top: .2rem;
-  padding-bottom: 2rem;
-  padding-left: 2rem;
-  grid-row: 2;
-  grid-column: 1 / 2;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.image3{
   width: 80%;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -135,4 +169,4 @@ h2 { font-family: 'Amatic SC', cursive; font-size: 2em;}
 h3 {font-family: 'Montserrat', sans-serif; font-size: 2em; text-align: center;}
 h4 {font-family: 'Montserrat', sans-serif; font-size: 1em; text-align: center;}
 p {font-family: 'Montserrat', sans-serif; font-size: 1em;}
-a {font-family: 'Montserrat', sans-serif; font-size: 1em}
+a {font-family: 'Montserrat', sans-serif; font-size: 1em;}
