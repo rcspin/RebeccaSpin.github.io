@@ -1,0 +1,87 @@
+.pagecontainer {
+  margin: auto;
+  width: 100vw;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;}
+
+.left {
+  display: block;
+  margin-left: 0%;
+  margin-right: auto;
+  width: 100%;
+}
+
+header {
+  background: #FBDCA3;
+  padding-top: 1rem;
+  padding-bottom: .001rem;
+  text-align: center;
+  color: #C57B57;
+
+}
+/*Image*/
+img{
+  width: 100%;
+  padding: inherit;
+}
+
+/*Link Colors*/
+a:active {
+    color: #FBDCA3;
+}
+
+
+/*Nav Bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #C57B57;
+}
+
+li {
+  float: left;
+  text-align: center;
+  width: 25%;
+}
+
+li a {
+    display: block;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Footer*/
+footer {
+  background: #C57B57 ;
+  padding-top: .01rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+footer a:link {
+    color: #FBDCA3;
+}
+
+footer a:visited {
+    color: #FBDCA3;
+}
+
+/*Typography*/
+
+body {
+font-family: 'Lusitana', serif;
+font-size: 100%;  /* 16px, sets the font-size baseline */}
+h1 { font-family: 'Amatic SC', cursive; font-size: 5em;}
+h2 { font-family: 'Amatic SC', cursive; font-size: 1.75em; /* 28px/16px*/}
+p { font-family: 'Lusitana', serif; font-size: 1em; /* 28px/16px*/}
