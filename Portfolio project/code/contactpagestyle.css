@@ -85,7 +85,7 @@ ul {
     color: #041F1E; /* Dark gray text color */
     font-size: 3em; /* Increased font-size */
     text-decoration: none;
-    padding-top: 8rem;
+    padding-top: 4rem;
     padding-bottom: 4rem;
     padding-left: 1rem;
     grid-row: 2;
@@ -101,7 +101,8 @@ ul {
 
 .image1{
   width: 20%;
-  padding: 2rem;
+  padding-top: 6rem;
+  padding-right: 4rem;
   float: right;
 }
 
@@ -161,7 +162,11 @@ font-family: 'Lusitana', serif;
 font-size: 100%;  /* 16px, sets the font-size baseline */}
 h1 { font-family: 'Amatic SC', cursive; font-size: 5em;}
 h2 { font-family: 'Amatic SC', cursive; font-size: 2em;}
-h3 {font-family: 'Montserrat', sans-serif; font-size: 2em; text-align: center;}
-h4 {font-family: 'Montserrat', sans-serif; font-size: 1em; text-align: center;}
+h3 {font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    text-align: center;}
+h4 {font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    text-align: center;}
 p {font-family: 'Montserrat', sans-serif; font-size: 1em;}
 a {font-family: 'Montserrat', sans-serif; font-size: 1em}
