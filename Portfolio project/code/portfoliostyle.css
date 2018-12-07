@@ -48,7 +48,7 @@ ul {
 li {
   float: left;
   text-align: center;
-  width: 25%;
+  width: 33.3%;
 }
 
 li a {
@@ -58,37 +58,6 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-/*------------*/
-
-.container {
-
-  max-width: 80vw;
-  margin: auto;
-}
-
-section {
-  background-color: #9fbd5e;
-
-}
-
-/*This is the container div where you declare CSS grid display
-and set up how many columns and rows are needed for the image grid.
-You could then go on to position each div on the grid though if
-they are equidistant it is not necessary.
-fr is a fractional, scalable unit for relative portions of the page,
-but you can use other units like pixels too*/
-
-.image-container-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 2rem;
-  max-width: 60vw;
-  margin: auto;
-  background: green;
-
 }
 
 /*Footer*/
@@ -114,6 +83,6 @@ body {
 font-family: 'Montserrat', sans-serif;
 font-size: 100%;  /* 16px, sets the font-size baseline */}
 h1 { font-family: 'Amatic SC', cursive; font-size: 5em;}
-h2 { font-family: 'Amatic SC', cursive; font-size: 1.75em; /* 28px/16px*/}
-li { font-family: 'Amatic SC', cursive; font-size: 2.3em;}
+li h2 { font-family: 'Amatic SC', cursive; font-size: 1.5em; /* 28px/16px*/}
+h2 { font-family: 'Amatic SC', cursive; font-size: 2.3em;}
 p { font-family: 'Montserrat', sans-serif; font-size: 1em;}
