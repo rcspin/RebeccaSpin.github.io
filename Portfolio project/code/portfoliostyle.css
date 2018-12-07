@@ -91,23 +91,6 @@ but you can use other units like pixels too*/
 
 }
 
-.imagebox {
-  padding: 1rem;
-  background: yellow;
-
-}
-
-img {
-  width: 100%;
-}
-/* You could add grid postioning here for these child items of the grid container and other unique styleing */
-.project1 {}
-.project2 {}
-.project3 {}
-.project4 {}
-
-/*------------*/
-
 /*Footer*/
 footer {
   background: #C57B57 ;
