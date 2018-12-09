@@ -16,6 +16,12 @@
   width: 100%;
 }
 
+.icon-bar a:hover {
+    color: #FBDCA3; /* Add a hover color */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+
+}
+
 header {
   background: #FBDCA3;
   padding-top: 1rem;
@@ -80,6 +86,7 @@ footer a:visited {
 /*Typography*/
 
 body {
+background-color: #C57B57 ;
 font-family: 'Montserrat', sans-serif;
 font-size: 100%;  /* 16px, sets the font-size baseline */}
 h1 { font-family: 'Amatic SC', cursive; font-size: 5em;}
